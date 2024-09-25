@@ -1,7 +1,7 @@
 import React from "react";
 import { Linkedin, Twitter, Github } from "lucide-react";
 
-export default () => {
+const TeamCard = () => {
   const team = [
     {
       avatar: "https://images.unsplash.com/photo-1535713875002-d1d0cf377fde",
@@ -125,3 +125,4 @@ export default () => {
     </section>
   );
 };
+export default TeamCard
