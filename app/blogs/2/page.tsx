@@ -25,7 +25,7 @@ function Page() {
 
     {
       id: 1,
-      title: "Understanding React's useState Hook",
+      title: "Understanding React&apos;s useState Hook",
       date: "2024-10-17",
       intro:
         "In this article, we explore how to use the useState hook in React and its benefits...",
@@ -95,7 +95,7 @@ function Page() {
         {/* Blog Title and Meta Info */}
         <div className="flex flex-col gap-4 title">
           <h1 className="w-full md:w-[70%] mx-auto pt-5 text-4xl text-start md:text-center font-semibold text-zinc-950">
-            Understanding React's useState Hook
+            Understanding React&apos;s useState Hook
           </h1>
           <div className="text-[12px] w-full text-center font-semibold">
             <span className="text-zinc-700">2024-10-17 · </span>
@@ -128,7 +128,7 @@ function Page() {
 
             <p className="text-base leading-8 my-5">
               Lorem Ipsum is simply dummy text of the printing and typesetting
-              industry. Lorem Ipsum has been the industry's standard dummy text
+              industry. Lorem Ipsum has been the industry&apos;s standard dummy text
               ever since the 1500s, when an unknown printer took a galley of
               type and scrambled it to make a type specimen book. It has
               survived not only five centuries, but also the leap into
@@ -141,13 +141,13 @@ function Page() {
 
             <blockquote className="border-l-4 text-base italic leading-8 my-5 p-5 text-button">
               Lorem Ipsum is simply dummy text of the printing and typesetting
-              industry. Lorem Ipsum has been the industry's standard dummy text
+              industry. Lorem Ipsum has been the industry&apos;s standard dummy text
               ever since the 1500s
             </blockquote>
 
             <p className="text-base leading-8 my-5">
               Lorem Ipsum is simply dummy text of the printing and typesetting
-              industry. Lorem Ipsum has been the industry's standard dummy text
+              industry. Lorem Ipsum has been the industry&apos;s standard dummy text
               ever since the 1500s, when an unknown printer took a galley of
               type and scrambled it to make a type specimen book. It has
               survived not only five centuries, but also the leap into
@@ -176,7 +176,7 @@ function Page() {
           <div>
             <blockquote className="border-l-4 text-base italic leading-8 my-5 p-5 text-button">
               Lorem Ipsum is simply dummy text of the printing and typesetting
-              industry. Lorem Ipsum has been the industry's standard dummy text
+              industry. Lorem Ipsum has been the industry&apos;s standard dummy text
               ever since the 1500s
             </blockquote>
           </div>

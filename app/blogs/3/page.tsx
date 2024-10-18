@@ -28,7 +28,7 @@ function Page() {
   const affiliation = [
     {
       id: 1,
-      title: "Understanding React's useState Hook",
+      title: "Understanding React&apos;s useState Hook",
       author: " Emma Wright",
       date: "2024-10-17",
       description: "<p>This is the detailed description of the blog post.</p>",
@@ -81,7 +81,7 @@ function Page() {
 
                 <p className="text-base leading-8 my-5">
                   Lorem Ipsum is simply dummy text of the printing and
-                  typesetting industry. Lorem Ipsum has been the industry's
+                  typesetting industry. Lorem Ipsum has been the industry&apos;s
                   standard dummy text ever since the 1500s, when an unknown
                   printer took a galley of type and scrambled it to make a type
                   specimen book. It has survived not only five centuries, but
@@ -94,13 +94,13 @@ function Page() {
 
                 <blockquote className="border-l-4 text-base italic leading-8 my-5 p-5 text-button">
                   Lorem Ipsum is simply dummy text of the printing and
-                  typesetting industry. Lorem Ipsum has been the industry's
+                  typesetting industry. Lorem Ipsum has been the industry&apos;s
                   standard dummy text ever since the 1500s
                 </blockquote>
 
                 <p className="text-base leading-8 my-5">
                   Lorem Ipsum is simply dummy text of the printing and
-                  typesetting industry. Lorem Ipsum has been the industry's
+                  typesetting industry. Lorem Ipsum has been the industry&apos;s
                   standard dummy text ever since the 1500s, when an unknown
                   printer took a galley of type and scrambled it to make a type
                   specimen book. It has survived not only five centuries, but

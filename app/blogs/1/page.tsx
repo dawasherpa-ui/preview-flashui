@@ -134,7 +134,7 @@ const Page = () => {
 
               <p className="text-base leading-8 my-5">
                 Lorem Ipsum is simply dummy text of the printing and typesetting
-                industry. Lorem Ipsum has been the industry's standard dummy
+                industry. Lorem Ipsum has been the industry&apos;s standard dummy
                 text ever since the 1500s, when an unknown printer took a galley
                 of type and scrambled it to make a type specimen book. It has
                 survived not only five centuries, but also the leap into
@@ -147,13 +147,13 @@ const Page = () => {
 
               <blockquote className="border-l-4 text-base italic leading-8 my-5 p-5 text-button">
                 Lorem Ipsum is simply dummy text of the printing and typesetting
-                industry. Lorem Ipsum has been the industry's standard dummy
+                industry. Lorem Ipsum has been the industry&apos;s standard dummy
                 text ever since the 1500s
               </blockquote>
 
               <p className="text-base leading-8 my-5">
                 Lorem Ipsum is simply dummy text of the printing and typesetting
-                industry. Lorem Ipsum has been the industry's standard dummy
+                industry. Lorem Ipsum has been the industry&apos;s standard dummy
                 text ever since the 1500s, when an unknown printer took a galley
                 of type and scrambled it to make a type specimen book. It has
                 survived not only five centuries, but also the leap into
