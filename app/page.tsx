@@ -19,6 +19,7 @@ export default function Home() {
     <a className="bg-green-500 py-1 rounded-md w-fit px-4 " href="/cookies/1">Go Cookies</a>
     <a className="bg-green-500 py-1 rounded-md w-fit px-4 " href="/card/1">Go Card</a>
     <a className="bg-green-500 py-1 rounded-md w-fit px-4 " href="/footer/1">Go Footer</a>
+    <a className="bg-green-500 py-1 rounded-md w-fit px-4 " href="/blogs/1">Go Blogs</a>
   </div>
   );
 }
