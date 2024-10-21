@@ -60,7 +60,7 @@ const ReviewCard = ({
 
 const MarqueeSlant = () => {
   return (
-    <div className=" relative flex h-96 flex-row items-center justify-center overflow-hidden rounded-lg  bg-secondary  gap-6 md:shadow-xl w-10/12">
+    <div className=" relative flex h-screen flex-row items-center justify-center overflow-hidden rounded-lg  bg-secondary  gap-6 md:shadow-xl w-full">
       <Marquee pauseOnHover vertical className="[--duration:20s] ">
         {firstRow.map((review) => (
           <ReviewCard key={review.username} {...review} />
