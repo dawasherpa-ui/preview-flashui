@@ -4,8 +4,8 @@ import "./globals.css";
 const manrope = Manrope({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "Preview Paradoxui components",
-  description: "Preview Paradox components",
+  title: "Preview FlashUi components",
+  description: "Preview FlashUi components",
 };
 
 export default function RootLayout({

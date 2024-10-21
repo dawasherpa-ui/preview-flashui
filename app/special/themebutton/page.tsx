@@ -1,12 +1,12 @@
 "use client";
 
 import React from "react";
-import { cn } from "@/app/utils/cn";
+import { cn } from "@/app/utils/cn";//Edit the file path according to your filepath
 
 const ThemeSwitcherButton = () => {
   const [theme, setTheme] = React.useState<"light" | "dark">("light");
   return (
-    <div className="min-h-screen grid place-items-center bg-secondary-950">
+    <div className="min-h-screen grid place-items-center dark">
     <button
       className="group relative inline-flex items-center gap-2 overflow-hidden rounded-md border border-neutral-500/10 bg-white px-2 py-1 font-medium text-neutral-600 tracking-tight hover:bg-neutral-100 dark:bg-neutral-800 dark:text-neutral-300 dark:hover:bg-neutral-700"
       onClick={() => setTheme((prev) => (prev === "light" ? "dark" : "light"))}
