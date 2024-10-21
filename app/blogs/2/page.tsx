@@ -25,7 +25,7 @@ function Page() {
 
     {
       id: 1,
-      title: "Understanding React&apos;s useState Hook",
+      title: "Understanding React's useState Hook",
       date: "2024-10-17",
       intro:
         "In this article, we explore how to use the useState hook in React and its benefits...",
@@ -130,13 +130,7 @@ function Page() {
               Lorem Ipsum is simply dummy text of the printing and typesetting
               industry. Lorem Ipsum has been the industry&apos;s standard dummy text
               ever since the 1500s, when an unknown printer took a galley of
-              type and scrambled it to make a type specimen book. It has
-              survived not only five centuries, but also the leap into
-              electronic typesetting, remaining essentially unchanged. It was
-              popularised in the 1960s with the release of Letraset sheets
-              containing Lorem Ipsum passages, and more recently with desktop
-              publishing software like Aldus PageMaker including versions of
-              Lorem Ipsum.
+              type and scrambled it to make a type specimen book.
             </p>
 
             <blockquote className="border-l-4 text-base italic leading-8 my-5 p-5 text-button">
@@ -149,13 +143,7 @@ function Page() {
               Lorem Ipsum is simply dummy text of the printing and typesetting
               industry. Lorem Ipsum has been the industry&apos;s standard dummy text
               ever since the 1500s, when an unknown printer took a galley of
-              type and scrambled it to make a type specimen book. It has
-              survived not only five centuries, but also the leap into
-              electronic typesetting, remaining essentially unchanged. It was
-              popularised in the 1960s with the release of Letraset sheets
-              containing Lorem Ipsum passages, and more recently with desktop
-              publishing software like Aldus PageMaker including versions of
-              Lorem Ipsum.
+              type and scrambled it to make a type specimen book.
             </p>
           </div>
         </div>
@@ -258,9 +246,6 @@ function Page() {
                     </div>
                   )}
                   <div className="w-full relative z-20  flex flex-col gap-3 items-start">
-                    {/* <div className="text-zinc-950 font-medium text-[14px] duration-300 group-hover:bg-gradient-to-r group-hover:from-[#3F6DB4] group-hover:via-[#CE157E] group-hover:to-[#F57F20] group-hover:bg-clip-text group-hover:text-transparent">
-                {item?.Contents[0]?.Date}
-              </div> */}
                     <div className="text-zinc-950 title font-medium">
                       {item?.title}
                     </div>
@@ -272,7 +257,7 @@ function Page() {
                       <div className="text-zinc-600  ">{item?.date}</div>
 
                       {/* CATEGORY  */}
-                      <span className="text-zinc-700">#tech</span>
+                      <span className="text-zinc-700">#Tech</span>
                     </div>
                   </div>
                 </div>
