@@ -12,6 +12,8 @@
     "@gsap/react": "^2.1.1",
     "@kinfe123/farm-ui": "^1.0.12",
     "@radix-ui/react-dialog": "^1.0.5",
+    "@tsparticles/engine": "^3.5.0",
+    "@tsparticles/react": "^3.0.0",
     "clsx": "^2.1.1",
     "flag-icons": "^7.1.0",
     "framer-motion": "^11.1.7",
@@ -28,7 +30,8 @@
     "sharp": "^0.33.2",
     "split-type": "^0.3.4",
     "swiper": "^11.1.7",
-    "tailwind-merge": "^2.3.0"
+    "tailwind-merge": "^2.3.0",
+    "tsparticles": "^3.5.0"
   },
   "devDependencies": {
     "@iconify/react": "^5.0.1",
