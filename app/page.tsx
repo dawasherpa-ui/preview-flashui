@@ -97,6 +97,15 @@ export default function Home() {
         <a className="bg-green-500 py-1 rounded-md w-fit px-4 mr-2" href="/special/aibutton">
           Go AiButton
         </a>
+        <a className="bg-green-500 py-1 rounded-md w-fit px-4 mr-2" href="/special/frequency">
+          Go Frequency
+        </a>
+        <a className="bg-green-500 py-1 rounded-md w-fit px-4 mr-2" href="/special/noiseeffect">
+          Go NoiseEffect
+        </a>
+        <a className="bg-green-500 py-1 rounded-md w-fit px-4 mr-2" href="/special/slideimage">
+          Go SlideImage
+        </a>
       </div>
     </>
   );
