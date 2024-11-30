@@ -4,7 +4,7 @@ function Page() {
   return (
     <main className="relative w-full h-full">
     <div
-        className="absolute top-0 left-0 w-full h-full content-[''] z-10 pointer-events-none bg-[url('https://res.cloudinary.com/dxddesdyt/image/upload/v1729666159/RpdD_uefiju.gif')]"
+        className="absolute top-0 left-0 w-full h-full content-[''] z-10 pointer-events-none bg-[url('https://res.cloudinary.com/dpb8r7bqq/image/upload/v1732936234/RpdD_grqwvx.gif')]"
         style={{ opacity: 0.08 }}
       ></div>
      <section className=" size-full font-semibold bg-gradient-to-t dark:to-gray-800 dark:from-gray-950 to-[#dadada] from-[#ebebeb] flex flex-col items-center justify-center dark:text-white text-black">
