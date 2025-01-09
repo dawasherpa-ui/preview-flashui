@@ -63,7 +63,7 @@ function Page() {
         className={`flex justify-between items-center bg-black text-white px-4 sm:px-6 md:px-10 lg:px-16 xl:px-28 h-[70px]`}
       >
         <Link
-          href="/"
+          href="#"
           className="flex items-center  justify-center cursor-pointer h-9 w-28"
         >
           <span className="text-2xl">Logo</span>
