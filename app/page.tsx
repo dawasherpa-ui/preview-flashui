@@ -88,24 +88,38 @@ export default function Home() {
       </div>
       <div className=" gap-2 w-11/12 mx-auto mt-20">
         <h1 className="text-2xl mb-4">Special</h1>
-        <a className="bg-green-500 py-1 rounded-md w-fit px-4 mr-2" href="/special/themebutton">
-          Go Theme-btn
+        <div className="flex flex-wrap gap-2">
+        <a className="bg-green-500 py-1 rounded-md w-fit px-4" href="/special/themebutton/1">
+          Go Theme-btn-1/2
         </a>
-        <a className="bg-green-500 py-1 rounded-md w-fit px-4 mr-2" href="/special/slantmarquee">
+        <a className="bg-green-500 py-1 rounded-md w-fit px-4" href="/special/slantmarquee">
           Go Slantmarquee
         </a>
-        <a className="bg-green-500 py-1 rounded-md w-fit px-4 mr-2" href="/special/aibutton">
+        <a className="bg-green-500 py-1 rounded-md w-fit px-4" href="/special/aibutton">
           Go AiButton
         </a>
-        <a className="bg-green-500 py-1 rounded-md w-fit px-4 mr-2" href="/special/frequency">
+        <a className="bg-green-500 py-1 rounded-md w-fit px-4" href="/special/frequency">
           Go Frequency
         </a>
-        <a className="bg-green-500 py-1 rounded-md w-fit px-4 mr-2" href="/special/noiseeffect">
+        <a className="bg-green-500 py-1 rounded-md w-fit px-4" href="/special/noiseeffect">
           Go NoiseEffect
         </a>
-        <a className="bg-green-500 py-1 rounded-md w-fit px-4 mr-2" href="/special/slideimage">
+        <a className="bg-green-500 py-1 rounded-md w-fit px-4" href="/special/slideimage">
           Go SlideImage
         </a>
+        <a className="bg-green-500 py-1 rounded-md w-fit px-4" href="/special/hero/1">
+          Go Hero-1/2
+        </a>
+        <a className="bg-green-500 py-1 rounded-md w-fit px-4" href="/special/parallax/1">
+          Go parllax-1/2
+        </a>
+        <a className="bg-green-500 py-1 rounded-md w-fit px-4" href="/special/link/1">
+          Go link-1/
+        </a>
+        <a className="bg-green-500 py-1 rounded-md w-fit px-4" href="/special/loader/1">
+          Go loader-1/
+        </a>
+        </div>
       </div>
     </>
   );
