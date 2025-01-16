@@ -114,10 +114,25 @@ export default function Home() {
           Go parllax-1/2
         </a>
         <a className="bg-green-500 py-1 rounded-md w-fit px-4" href="/special/link/1">
-          Go link-1/
+          Go link-1/2
         </a>
         <a className="bg-green-500 py-1 rounded-md w-fit px-4" href="/special/loader/1">
           Go loader-1/
+        </a>
+        <a className="bg-green-500 py-1 rounded-md w-fit px-4" href="/special/carousel/1">
+          Go carousel-1/2/3
+        </a>
+        <a className="bg-green-500 py-1 rounded-md w-fit px-4" href="/special/gallery/1">
+          Go gallery-1/2/
+        </a>
+        <a className="bg-green-500 py-1 rounded-md w-fit px-4" href="/special/feedback/1">
+          Go feedback-1/
+        </a>
+        <a className="bg-green-500 py-1 rounded-md w-fit px-4" href="/special/404/1">
+          Go 404-1/
+        </a>
+        <a className="bg-green-500 py-1 rounded-md w-fit px-4" href="/special/feature/1">
+          Go feature-1/
         </a>
         </div>
       </div>

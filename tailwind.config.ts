@@ -15,11 +15,16 @@ const config: Config = {
   theme: {
     extend: {
       animation: {
+        fadeIn: "fadeIn 0.5s ease-in",
         marquee: 'marquee var(--duration) linear infinite',
         'marquee-vertical': 'marquee-vertical var(--duration) linear infinite',
         grid: "grid 15s linear infinite",
       },
       keyframes: {
+          fadeIn: {
+          from: { opacity: "0" },
+          to: { opacity: "1" },
+      },
         marquee: {
           from: { transform: 'translateX(0)' },
           to: { transform: 'translateX(calc(-100% - var(--gap)))' },
