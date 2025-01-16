@@ -28,8 +28,8 @@ const Feedback = () => {
   }, [happiness])
 
   useEffect(() => {
-    let timeout = null
-    let submissionStateTimeout = null
+    let timeout:any = null
+    let submissionStateTimeout:any = null
 
     if (isSent) {
       setSubmissionState(true)

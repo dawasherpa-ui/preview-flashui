@@ -2,19 +2,7 @@
 import { HTMLAttributes, useEffect, useState } from "react";
 import { cn } from "@/app/utils/cn";
 
-interface ImageProps extends HTMLAttributes<HTMLDivElement> {
-  item: { image: string; title: string };
-  index: number;
-  activeItem: number;
-}
-
-interface ExpandableProps {
-  list?: { image: string; title: string }[];
-  autoPlay?: boolean;
-  className?: string;
-}
-
-const List = ({ item, className, index, activeItem, ...props }: ImageProps) => {
+const List = ({ item, className, index, activeItem, ...props }: any) => {
   return (
     <div
       className={cn(
@@ -64,11 +52,7 @@ const items = [
   },
 ];
 
-export default function Expandable({
-  list = items,
-  autoPlay = true,
-  className,
-}: ExpandableProps) {
+export default function Expandable({ list = items, autoPlay = true, className }: any) {
   const [activeItem, setActiveItem] = useState(0);
   const [isHovering, setIsHovering] = useState(false);
 
@@ -88,7 +72,7 @@ export default function Expandable({
 
   return (
     <div className={cn("flex h-[80vh] w-full gap-1", className)}>
-      {list.map((item, index) => (
+      {list.map((item: any, index: any) => (
         <List
           key={item.title}
           item={item}
